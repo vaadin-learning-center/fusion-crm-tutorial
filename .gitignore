@@ -8,7 +8,7 @@ build/
 
 # The following files are automatically generated/updated
 node_modules/
-frontend/generated/
+src/main/frontend/generated/
 .npmrc
 vite.generated.ts
 
