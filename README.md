@@ -2,7 +2,7 @@
 
 Hilla is a full-stack web framework for Java. It can help you build better business applications faster by combining a Spring Boot backend with a React frontend. Plus, it has more than forty UI components that you can utilize for a more professional application. 
 
-This example project shows a full-stack CRM application built using Hilla. You can find the step-by-step instructions for re-creating this app in the [Hilla documentation](https://hilla.dev/docs).
+This example project shows a full-stack CRM application built using Hilla. You can find the step-by-step instructions for re-creating this app in the [Hilla documentation](https://vaadin.com/docs/latest/hilla/tutorial).
 
 ## Running the application
 
@@ -20,6 +20,6 @@ Once the JAR file is built, you can run it using
 
 ## Useful links
 
-- Read the documentation at [hilla.dev/docs](https://hilla.dev/docs/).
-- Ask questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/hilla) or join our [Discord channel](https://discord.gg/MYFq5RTbBn).
+- Read the documentation at [vaadin.com/docs](https://vaadin.com/docs/latest/hilla).
+- Ask questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/hilla) or join our [Forum](https://vaadin.com/forum).
 - Report issues, create pull requests in [GitHub](https://github.com/vaadin/hilla).
