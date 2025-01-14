@@ -1,12 +1,16 @@
-import {TextField} from "@vaadin/react-components/TextField";
-import {EmailField} from "@vaadin/react-components/EmailField";
-import {Select, SelectItem} from "@vaadin/react-components/Select";
-import {Button} from "@vaadin/react-components/Button";
-import {useForm} from "@vaadin/hilla-react-form";
+import { TextField, EmailField, Select, SelectItem, Button} from "@vaadin/react-components";
+import { useForm } from "@vaadin/hilla-react-form";
 import ContactRecordModel from "Frontend/generated/com/example/application/services/CRMService/ContactRecordModel";
-import {CRMService} from "Frontend/generated/endpoints";
-import {useEffect, useState} from "react";
+import { CRMService } from "Frontend/generated/endpoints";
+import { useEffect, useState } from "react";
 import ContactRecord from "Frontend/generated/com/example/application/services/CRMService/ContactRecord";
+import {ViewConfig} from "@vaadin/hilla-file-router/types.js";
+
+export const config: ViewConfig = {
+    menu: {
+        exclude: true
+    },
+};
 
 interface ContactFormProps {
     contact?: ContactRecord | null;

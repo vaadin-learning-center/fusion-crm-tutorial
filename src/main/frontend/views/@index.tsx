@@ -1,9 +1,15 @@
 import ContactRecord from 'Frontend/generated/com/example/application/services/CRMService/ContactRecord';
-import {useEffect, useState} from 'react';
-import {CRMService} from "Frontend/generated/endpoints";
-import {Grid} from "@vaadin/react-components/Grid";
-import {GridColumn} from "@vaadin/react-components/GridColumn";
+import { useEffect, useState } from 'react';
+import { CRMService } from "Frontend/generated/endpoints";
+import { Grid, GridColumn } from "@vaadin/react-components";
 import ContactForm from "Frontend/views/contacts/ContactForm";
+import { ViewConfig } from "@vaadin/hilla-file-router/types.js";
+
+export const config: ViewConfig = {
+    menu: {
+        title: 'Contacts',
+    },
+};
 
 export default function ContactsView() {
     const [contacts, setContacts] = useState<ContactRecord[]>([]);
